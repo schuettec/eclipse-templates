@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Creates a JUnit test method with imports" enabled="true" name="test">${:import(org.junit.Test)}&#13;
+${is:importStatic('org.mockito.Matchers.*', 'org.mockito.Mockito.*', &#13;
+'org.assertj.core.api.Assertions')}&#13;
+&#13;
+@Test&#13;
+public void should${testName}() {    &#13;
+    ${cursor} &#13;
+}</template></templates>

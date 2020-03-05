@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Creates a when-thenThrow Mockito statement." enabled="true" name="when-thenThrow">${impst:importStatic('org.mockito.Matchers.*;', 'org.mockito.Mockito.*')}&#13;
+when(${mock}).thenThrow(${cursor});</template></templates>

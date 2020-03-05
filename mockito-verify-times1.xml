@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Add a verify statement." enabled="true" name="verify">${impst:importStatic('org.mockito.Matchers.*;', 'org.mockito.Mockito.*')}&#13;
+&#13;
+verify(${mock}, times(1))${cursor}&#13;
+</template></templates>
